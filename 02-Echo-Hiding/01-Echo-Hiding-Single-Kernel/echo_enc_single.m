@@ -6,6 +6,7 @@ function out = echo_enc_single(signal, text, d0, d1, alpha, L)
 %       text   : Message to hide
 %       d0     : Delay rate for bit0
 %       d1     : Delay rate for bit1
+%       alpha  : Echo amplitude
 %       L      : Length of frames
 %
 %   OUTPUT VARIABLES
