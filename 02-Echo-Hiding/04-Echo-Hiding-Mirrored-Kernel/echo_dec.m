@@ -40,8 +40,8 @@ for k=1:N
 end
 
 m   = floor(N/8);
-bin = reshape(data(1:8*m), 8, m)';   %Retrieved message in binary
-out = char(bin2dec(bin))';           %bin=>char
+bin = reshape(data(1:8*m), 8, m);   %Retrieved message in binary
+out = char(bin2dec(bin));           %bin=>char
 
 if (len_msg~=0)
 	out = out(1:len_msg);

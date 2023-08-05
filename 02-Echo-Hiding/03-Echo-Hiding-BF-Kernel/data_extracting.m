@@ -4,7 +4,7 @@ audio = audioload();
 
 file = 'text.txt';
 fid  = fopen(file, 'r');
-text = fread(fid,'*char')';
+text = fread(fid,'*char');
 fclose(fid);
 
 msg = echo_dec(audio.data);

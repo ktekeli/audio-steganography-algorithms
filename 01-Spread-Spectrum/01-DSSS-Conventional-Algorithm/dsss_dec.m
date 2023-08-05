@@ -27,7 +27,7 @@ xsig = reshape(signal(1:N*L,1), L, N);  %Divide signal into N segments
 r = ones(L,1);
 %r = prng('password', L);       %Generating same pseudo random sequence
 
-data = num2str(zeros(N,1))';
+data = num2str(zeros(N,1));
 c = zeros(1,N);
 for k=1:N  
     c(k)=sum(xsig(:,k).*r)/L;   %Correlation
