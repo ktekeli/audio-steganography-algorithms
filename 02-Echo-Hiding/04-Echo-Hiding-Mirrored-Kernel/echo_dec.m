@@ -28,7 +28,7 @@ end
 
 N = floor(length(signal)/L);             %Number of frames
 xsig = reshape(signal(1:N*L,1), L, N);   %Dividing signal into frames
-data = char.empty(N, 0);
+data = char(N, 0);
 
 for k=1:N
 	rceps = ifft(log(abs(fft(xsig(:,k)))));  %Real cepstrum
