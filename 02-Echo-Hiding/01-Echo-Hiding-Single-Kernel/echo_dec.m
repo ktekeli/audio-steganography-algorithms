@@ -46,3 +46,4 @@ out = char(bin2dec(bin));           %bin=>char
 if (len_msg~=0)
 	out = out(1:len_msg);
 end
+end
