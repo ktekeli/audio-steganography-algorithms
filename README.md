@@ -72,10 +72,8 @@ Contributions are always welcome! Please read the contribution guidelines first.
 
 Thank you for your suggestions!
 
-## Team
-- Kadir Tekeli (owner) [[linkedin]](https://www.linkedin.com/in/ktekeli/) [[researchgate]](https://www.researchgate.net/profile/Kadir_Tekeli)
-- Rıfat Aşlıyan [[linkedin]](https://www.linkedin.com/in/rifat-asliyan-6992b847/)
-- İsmail Atbakan [[linkedin]](https://www.linkedin.com/in/ismail-atbakan-a09377174/)
+## Author
+- Kadir Tekeli [[linkedin]](https://www.linkedin.com/in/ktekeli/) [[researchgate]](https://www.researchgate.net/profile/Kadir_Tekeli)
 
 ## License
 [MIT](https://github.com/ktekeli/audio-steganography-algorithms/blob/master/LICENCE) License (2016-2017)
